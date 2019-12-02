@@ -1,0 +1,21 @@
+body{
+background-color:rgb(85,106,125);
+}
+.now{
+background-color:rgb(73,73,59);
+}
+table{
+border-color:rgb(200,152,0);
+}
+tr{
+background-color:rgb(119,136,151);
+}
+a:hover.normal{
+background-color:rgb(73,73,59);
+}
+a:active.normal{
+background-color:rgb(73,73,59);
+}
+#sub li:hover ul li a:hover {
+background-color:rgb(73,73,59);
+}

@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style> /*head안의 style에서 서식 지정*/
+body
+{
+background-color:lightgreen;
+background-image:url(apache_pb.gif);
+background-repeat:repeat-x;
+background-position:right top;
+background-attachment:fixed;
+font-family:Arial,Helvetica,sans-serif;
+}
+.redcenter /*class 설정*/
+{
+color:red;
+text-align:center;
+}
+.bluecenter
+{
+color:blue;
+text-align:center;
+font-size:11pt;
+}
+.specialheading
+{
+color:darkgray;
+text-decoration:underline;
+}
+a:link{color:green; text-decoration:none;}  /* unvisited link */ 
+a:visited {color:yellow; background-color:#FFFF85;}  /* visited link */ 
+a:hover{color:black; background-color:#DD409F;} /* mouse over link */ 
+a:active{color:blue; text-decoration:underline;} /* selected link */ 
+
+#uppercase
+{
+text-transform:uppercase;
+}
+img.top
+{
+vertical-align:text-top;
+}
+ul.a {list-style-type: square;}
+ol.b {list-style-type: upper-roman;}
+
+table, th, td
+{
+border-style:dotted solid double;
+border-width:thin medium thick
+}
+table
+{
+width:100%;
+border-spacing:3px 1px;
+}
+th
+{
+height:70px;
+vertical-align:bottom;
+padding:10px 5px 15px 20px;
+background-color:white;
+}
+</style>
+</head>
+<body>
+<h1 class="specialheading">Heading 1</h1>
+<p>This is sample text for CSS.</p>
+<p>This is another paragraph.</p>
+<hr>
+<h2>Heading 2</h2>
+<table border="1" width="100%">
+<tr>
+<th class="bluecenter">Name</th>
+<th class="bluecenter">E-mail</th>
+<th class="bluecenter">Phone</th>
+</tr>
+<tr>
+<td width="25%">B. Obama</td>
+<td width="25%">obama@wh.gov</td>
+<td width="25%">111-234-5678</td>
+</tr>
+<tr>
+<td width="25%">Psy</td>
+<td width="25%">psy@korean.com</td>
+<td width="25%">222-333-4444</td
+</tr>
+</table>
+<br>
+<hr>
+<h3>Heading 3</h3>
+<p>Visit <a href="http://www.kookmin.ac.kr/">Kookmin University</a> or our <a href="http://mis.kookmin.ac.kr">School of MIS</a></p>
+<p class="redcenter">You will know:</p>
+<ol class="b">
+<li>School of Management Information Systems</li>
+<li>Kookmin University</li>
+</ol>
+<p class="redcenter">Favorite Classes:</p>
+<div id="uppercase">
+<ul  class="a">
+<li>Introduction to MIS</li>
+<li>System Analysis and Design</li>
+<li>Database</li>
+</ul>
+</div>
+<p>An <img class="top" src="apache_pb.gif" alt="apache logo" width="270" height="50" /> image with a text-top alignment.</p>
+</body>
+</html>

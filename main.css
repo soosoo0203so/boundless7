@@ -1,0 +1,50 @@
+﻿@charset "UTF-8";
+@font-face {
+font-family: 'BMDOHYEON'; 
+src: local(BMDOHYEON),
+     local(BMDOHYEON_ttf),
+     url(BMDOHYEON_ttf.eot) format('eot'),
+     url(BMDOHYEON_ttf.woff) format('woff'),
+     url(BMDOHYEON_ttf.ttf) format('truetype');
+}
+body{
+font-family: "BMDOHYEON";
+background-image:url("main.png");
+background-size:100%;
+text-align:center;
+}
+.bound{
+font-size:130px;
+color:black;
+float:left;
+position:absolute;
+top:37%;
+left:21%;
+font-style:italic;
+}
+.menu{
+text-align:center;
+color:white;
+font-size:200%;
+position:absolute;
+top:70%;
+left:8%;
+}
+a{
+margin-left:80px;
+color:white;
+}
+a:link{
+text-decoration:none;
+}
+a:visited{
+text-decoration:none;
+}
+a:hover{
+text-decoration:none;
+font-style:italic;
+}
+a:active{
+text-decoration:none;
+font-style:italic;
+}

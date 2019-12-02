@@ -1,0 +1,161 @@
+﻿@charset "UTF-8";
+@font-face {
+font-family: 'BMDOHYEON'; 
+src: local(BMDOHYEON),
+     local(BMDOHYEON_ttf),
+     url(BMDOHYEON_ttf.eot) format('eot'),
+     url(BMDOHYEON_ttf.woff) format('woff'),
+     url(BMDOHYEON_ttf.ttf) format('truetype');
+}
+body{
+font-family: "BMDOHYEON";
+background-image:url("bg-introduction.png");
+background-size:100%;
+font-size:20px;
+box-sizing:border-box;
+}
+.home{
+position:absolute;
+top:20px;
+left:20px;
+float:left;
+}
+.sitemap{
+position:absolute;
+top:20px;
+right:20px;
+float:right;
+}
+.top{
+position:fixed;
+bottom:20px;
+right:20px;
+}
+.title{
+position:fixed;
+top:8%;
+left:3%;
+}
+.sub{
+font-size:30px;
+border-style:none none none solid;
+border-color:rgb(217,217,217);
+color:rgb(217,217,217);
+padding:10px;
+margin:0px;
+position:fixed;
+top:40%;
+left:5%;
+}
+.main{
+position:absolute;
+top:11%;
+left:40%;
+width:55%;
+font-family: "BMDOHYEON";
+font-size:20px;
+line-height:200%;
+color:white;
+wrap:hard;
+overflow:auto;
+background-color:rgb(56,57,57);
+border-style:none;
+padding:10px 5px 30px;
+}
+a{
+font-family: "BMDOHYEON";
+color:white;
+}
+a:link{
+text-decoration:none;
+}
+a:visited{
+text-decoration:none;
+}
+a:hover.logo{
+text-decoration:none;
+}
+a:active.logo{
+text-decoration:none;
+}
+
+a.link{
+color:rgb(255,192,0);
+}
+a:link.link{
+color:rgb(255,192,0);
+}
+a:visited.link{
+color:rgb(255,192,0);
+}
+a:hover.link{
+font-style:italic;
+}
+a:active.link{
+font-style:italic;
+}
+
+a:hover.normal{
+font-style:italic;
+}
+a:active.normal{
+font-style:italic;
+}
+
+#sub{
+list-style: none;
+margin:5;
+padding:0;
+}
+#sub li {
+height: 2em;
+margin-top:15px;
+}
+#sub li a {
+padding:0;
+color: white;
+}
+#sub li:hover a {
+display:inline-block;
+}
+#sub ul {
+display: none;
+list-style: none;
+margin-left:5px;
+padding:2;
+}
+#sub li:hover {
+height:auto;
+}
+#sub li:hover ul {
+display:block;
+clear:left;
+position:normal;
+}
+#sub li:hover a {
+color:white;
+}
+#sub li:hover ul li a {
+font-size:17px;
+color:white;
+}
+#sub ul li {
+margin: 0;
+padding:0px;
+width:500px;
+height: auto;
+margin-top:10px;
+clear:left;
+}
+#sub ul li a:hover{
+padding:3px 5px 0px;
+}
+#sub ul li a:active{
+padding:3px 5px 0px;
+}
+#sub li:hover ul li a:hover {
+color:rgb(255,192,0);
+}
+#sub li:hover ul li a:active {
+color:rgb(255,192,0);
+}

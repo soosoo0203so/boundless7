@@ -1,0 +1,20 @@
+body{
+background-image:url("bg-menu-bigdata.png");
+}
+.logo{
+position:absolute;
+top:120px;
+left:80px;
+height:150px;
+}
+#menu{
+position:absolute;
+top:200px;
+left:1060px;
+}
+#menu li:hover a {
+color:rgb(83,50,90);
+}
+#menu li:hover ul li a:hover {
+color:rgb(83,50,90);
+}

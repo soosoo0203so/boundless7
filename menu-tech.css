@@ -1,0 +1,20 @@
+body{
+background-image:url("bg-menu-tech.png");
+}
+.logo{
+position:absolute;
+top:130px;
+left:200px;
+height:150px;
+}
+#menu{
+position:absolute;
+top:200px;
+left:1000px;
+}
+#menu li:hover a{
+color:#FFAB0B;
+}
+#menu li:hover ul li a:hover{
+color:#FFAB0B;
+}

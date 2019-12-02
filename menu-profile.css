@@ -1,0 +1,20 @@
+body{
+background-image:url("bg-menu-profile.png");
+}
+.logo{
+position:absolute;
+top:170px;
+left:100px;
+height:150px;
+}
+#menu{
+position:absolute;
+top:260px;
+left:1000px;
+}
+#menu li:hover a {
+color:rgb(77,11,128);
+}
+#menu li:hover ul li a:hover {
+color:rgb(77,11,128);
+}

@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<h1>This is heading </h1> <!--h는 heading-->
+<h3>This is  another heading </h3>
+<p>This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph </p><!--p는 pragrapgh-->
+<p>This is another paragrapgh. This is another paragrapgh. This is another paragrapgh. This is another paragrapgh. This is another paragrapgh. This is another paragrapgh. This is another paragrapgh. This is another paragrapgh. This is another paragrapgh. </p>
+<hr><!-- horizontal line-->
+<ul><!--순서 없는 리스트-->
+<li>Coffee</li>
+<li>Milk</li>
+<li>Juice</li>
+</ul>
+<ol><!--순서 있는 리스트-->
+<li>Coffee</li>
+<li>Milk</li>
+<li>Juice</li>
+</ol>
+<hr>
+<img src="kmu_logo.jpg" alt="Kookmin Univ. Logo" width="200" height="200"><!--사진 첨부. 이때 "alt"는 이미지가 첨부되지 않을 때를 대비-->
+<img src="kmu_logo.jpg" alt="Kookmin Univ. Logo" width="100" height="100"><!--줄바꿈 하지 않으면 두 이미지는 가로로 배열-->
+<hr>
+<a href="http://www.kookmin.ac.kr">KMU</a><!--"KMU"는 링크를 대표하는 이름. 현재 화면에서 링크 화면의 일부보임-->
+<br> <!--br 은 줄 바꿈-->
+<a href="http://www.kookmin.ac.kr" target="_top">KMU Full Screen</a><!--현재 화면에서 링크 화면의 전체보임--><br>
+<a href="http://www.kookmin.ac.kr" target="_blank">KMU New Screen</a><!--새로운 화면에 링크 화면 생성--><br>
+<a href="http://www.kookmin.ac.kr"><img border="0" alt="KMU Logo" src="kmu_logo.jpg" width="100" height="100"></a><!--이미지가 링크를 대표-->
+<hr>
+
+<table border="1" cellpadding="10" cellspacing="10" >
+<!--cellpadding은 글자와 칸 테두리의 간격. cellspacing은 칸과 표 테두리의 간격.-->
+<tr> <!--열-->
+<td>(1,1)</td> <!--행-->
+<th>(1,2)</th> <!--th의 h는 heading-->
+<td>(1,3)</td>
+</tr>
+<tr>
+<td rowspan="2">(2,1)</td> <!--rowspan은 세로로 차지하는 칸의 수 조정-->
+<td colspan="2">(2,2)</td> <!--colspan은 가로로 차지하는 칸의 수 조정-->
+</tr>
+<tr>
+<td>(3,2)</td>
+<td>(3,3)</td>
+</tr>
+</table>
+<hr>
+<iframe src="http://www.kookmin.ac.kr" frameborder="0" width="600" height="200"></iframe>
+<hr>
+<div > <!--구역 나누기-->
+<form>
+First name:<input type="text" name="firstname"><br>
+Last name:<input type="text" name="lastname">
+<!--type이 text면 글자를 입력할 수 있는 박스 생성-->
+</form> 
+<form>
+Password:<input type="password" name="pwd">
+<!--type이 password면 글자를 입력할 수 있는 박스 생성+글자가 문자로 표시-->
+</form>
+<form>
+<input type="radio" name="gender" value="male">Male<br>
+<input type="radio" name="gender" value="female">Female
+<!--type이 radio면 선택할 수 있는 동그란 버튼 생성. 중복 선택 불가능-->
+</form>
+<form>
+<input type="checkbox" name="vehicle" value="Bike">Have a bike<br>
+<input type="checkbox" name="vehicle" value="Car">Have a car
+<!--type이 checkbox면 선택할 수 있는 네모난 버튼 생성. 중복 선택 가능-->
+</form>
+<form name="input" action=“form.php" method="get"> Username:<input type="text" name="user">
+<input type="submit" value="Click">
+</form>
+</div>
+<select> <!--drop-down list-->
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value=“bmw">BMW</option>
+<option value="audi">Audi</option>
+</select>
+<hr>
+<p><b>This text is bold</b></p> <!--글자 두껍게-->
+<p><i>This text is italic</i></p><!--글자 기울임-->
+<p>This is<sub> subscript</sub><!--아래 첨자--> and <sup>superscript</sup><!--위 첨자--></p>
+<p>The <abbr title="World Health Organization">WHO</abbr><!--마우스 올려두었을 때 부연설명--> was founded in 948.</p>
+<pre><!--작성한 형태 그대로 출력-->
+for i = 1 to 10
+   print i 
+next i
+</pre>
+<p style="background-color:#FF0000"> Color set by using hex value </p><!--HEX값으로 색상 설정-->
+<p style="background-color:rgb(0,255,0)"> Color set by using rgb value </p><!--RGB값으로 색상 설정-->
+<p style="background-color:blue"> Color set by using color name </p><!--색상이름으로 색상 설정-->
+<audio controls>  <source src="Sleep Away.mp3" type="audio/mpeg"> </audio><!--재생바 생성-->
+<embed height="100" width="200" src="Sleep Away.mp3"> <br>How about listening "Sleep Away"?<!--iframe 형태-->
+</body>
+</html>

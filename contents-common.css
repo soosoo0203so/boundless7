@@ -1,0 +1,153 @@
+﻿@charset "UTF-8";
+@font-face {
+font-family: 'BMDOHYEON'; 
+src: local(BMDOHYEON),
+     local(BMDOHYEON_ttf),
+     url(BMDOHYEON_ttf.eot) format('eot'),
+     url(BMDOHYEON_ttf.woff) format('woff'),
+     url(BMDOHYEON_ttf.ttf) format('truetype');
+}
+body{
+font-family: "BMDOHYEON";
+font-size:20px;
+box-sizing:border-box;
+width:100%;
+}
+.logo{
+text-align:center;
+}
+.home{
+position:absolute;
+top:20px;
+left:20px;
+float:left;
+}
+.sitemap{
+position:absolute;
+top:20px;
+right:20px;
+float:right;
+}
+.title{
+float:left;
+text-align:left;
+font-size:30px;
+color:white;
+box-sizing:border-box;
+height:20%;
+position:absolute;
+top:90px;
+left:45px;
+display:inline-block;
+}
+.menu{
+float:right;
+text-align:right;
+font-size:23px;
+color:white;
+box-sizing:border-box;
+width:75%;
+padding:0%;
+height:20%;
+position:absolute;
+top:105px;
+right:45px;
+}
+table{
+clear:both;
+border-style:double none none;
+border-width:thick;
+padding:30px 100px 50px; /*table 바깥 테두리와 안쪽 칸 간의 간격*/
+margin:10px; /*다른 elements와 해당 table와의 간격*/
+width:100%;
+}
+tr{
+width:100%;
+}
+td{
+float:left;
+padding:70px 50px; /*한칸 내에서 내용과 테두리와의 간격*/
+font-size:15px;
+text-indent:0px;
+line-height:200%;
+text-align:left;
+}
+.image{
+float:left;
+margin-left:100px;
+}
+.top{
+position:fixed;
+bottom:20px;
+right:20px;
+}
+a{
+font-family: "BMDOHYEON";
+color:white;
+}
+a:link{
+text-decoration:none;
+}
+a:visited{
+text-decoration:none;
+}
+a:hover.logo{
+text-decoration:none;
+}
+a:active.logo{
+text-decoration:none;
+}
+#sub{
+list-style: none;
+margin:0;
+padding:0;
+}
+#sub li {
+height: 2em;
+margin-top:15px;
+}
+#sub li a {
+padding:0;
+color: white;
+}
+#sub li:hover a {
+display:inline-block;
+}
+#sub ul {
+display: none;
+list-style: none;
+margin-left:0px;
+padding: 0;
+}
+#sub li:hover {
+height:auto;
+}
+#sub li:hover ul {
+display:block;
+clear:left;
+position:normal;
+}
+#sub li:hover a {
+color:white;
+}
+#sub li:hover ul li a {
+font-size:17px;
+color:white;
+}
+#sub ul li {
+margin: 0;
+padding:0px;
+width:500px;
+height: auto;
+margin-top:10px;
+clear:left;
+}
+#sub ul li a:hover{
+padding:3px 5px 0px;
+}
+#sub ul li a:active{
+padding:3px 5px 0px;
+}
+#sub li:hover ul li a:hover {
+color:white;
+}

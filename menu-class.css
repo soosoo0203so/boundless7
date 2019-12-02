@@ -1,0 +1,20 @@
+body{
+background-image:url("bg-menu-class.png");
+}
+.logo{
+position:absolute;
+top:180px;
+left:100px;
+height:150px;
+}
+#menu{
+position:absolute;
+top:200px;
+left:1100px;
+}
+#menu li:hover a {
+color:rgb(154,153,100);
+}
+#menu li:hover ul li a:hover {
+color:rgb(154,153,100);
+}
