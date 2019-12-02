@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body
+{
+font-family: Arial, Verdana, sans-serif;
+text-align:center;
+}
+
+.header, .contents, .footer
+{
+background-color:#efefef;
+width:95%;
+margin:10px;
+padding:10px;
+}
+.contents
+{
+height: 50%;
+}
+</style>
+</head>
+<body>
+<div class="header">
+<p>Header section</p>
+</div>
+<div class="contents">
+<p>Contents section</p>
+</div>
+<div class="footer">
+<p>Footer section</p>
+</div>
+</body>
+</html>
